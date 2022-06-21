@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int getNeighbors(int y, int x);
+
 char currWorld[80][24];
 char nextWorld[80][24];
 
