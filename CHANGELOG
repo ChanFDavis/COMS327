@@ -1,0 +1,14 @@
++ Added a constant for PC_HEALTH in dungeon.h
++ Implemented the character picking up an object by checking if the pc has an empty slot and seeing if an item is in the spot that the pc has moved to.
++ Added a function that finds the first empty slot in the pc's inventory, but returns -1 if it is not found.
++ Added a message explaining that you picked up an item
++ Item is added to your empty slot (if there is one) and removed from the dungeon floor.
++ added list_inventory() in pc.h which is called in the handling of inputs
++ added list_equipment() in pc.h which is called in the handling of inputs
++ both of the above methods wait for keyboard input to move on.
++ Vectors were being stupid (or I was), so I made a snippet in util to help fine the size
++ Added an array of the equipment space names for easy printing in a loop when displaying the inventory
++ Added a string of chars a-l.
++ Now the equipment will give the type of slot, as well as the key to press.
++ Changed the asking of the item slot from a switch statment to a single if statement.
++ Finished the equipment stuff!

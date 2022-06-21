@@ -1,0 +1,26 @@
+README - Assignment 1.07
+Author: Chan Davis
+
+---------
+ PURPOSE
+---------
+
+This program is meant to parse through a given file and pull out the strings needed to create several monsters. The tags are in no order, but are as follows:
+
+- NAME	: Name of the monster.
+- DESC	: Description of the monster.
+- COLOR	: What color the monster will be.
+- SPEED	: The speed of the monster.
+- ABIL	: The abilities that the monster will have.
+- HP	: The health of the monster.
+- DAM	: The damage that the monster deals.
+- SYMB	: The symbol used to represent the monster.
+
+
+------------
+ HOW TO RUN
+------------
+
+I put my code in a file called parser.cpp. It is in the folder "ass7_code". 
+You'll have to compile that on it's own (I'm sorry for the trouble) and run it separately.
+It will be added to the main code in the next project, but for now it is not necessary to be included.

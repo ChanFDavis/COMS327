@@ -1,0 +1,58 @@
+README - Assignment 1.05
+Author: Chan F. Davis
+Date: March 7th, 2017 
+
+---------
+  FILES
+---------
+* CHANGELOG			List of changes made during development
+* README			List of files, how to compile, project purpose, etc.
+* Makefile			Contains simple commands for compiling and running
+* dungeon.c 		Methods for generating and rendering the dungeon
+* dungeon.h			Header file for dun_gen
+* heap.c 			Fibonacci Heap as implemented by Jeremy
+* heap.h 			Header file for heap
+* macros.h 			Allows te creating of header files
+* path.c 			Generates and renders distance maps for tunneling and non-tunneling monsters, and places the player
+* path.h 			Header file for paths
+* rlg327.c 			Contains the main method for all dungeon creation
+* util.c 			Various utilities for the other classes
+* util.h 			Header file for util
+* npc.c 			Methods for all NPCs (Enemies)
+* npc.h 			Header file for npc
+* move.c 			Methods for movement of NPCs and PCs
+* move.h 			Header file for move
+* event.c 			Event Queue
+* event.h 			Header file for event
+* character.c 		Methods for all characters, PC and Enemies
+* character.h 		Header file for character
+* dims.h 			Header file for dims
+
+
+
+-----------
+  PURPOSE
+-----------
+
+The purpose of this assignment was to implement movement using the ncurses library. In control mode, you only see an 80x21 section of the dungeon centered around the player. In look mode, you can freely look around the dungeon in a 8-x21 section.
+
+
+
+----------
+ CONTROLS
+----------
+* 1, b 				Move the player (control mode) down-right 
+* 7, y 				Move the player (control mode) down-right
+* 3, n 				Move the player (control mode) down-right
+* 8, k 				Move the player (control mode) down-right
+* 6, l 				Move the player (control mode), or screen (look mode), down-right
+* 2, j 				Move the player (control mode), or screen (look mode), down-right
+* 4, h 				Move the player (control mode), or screen (look mode), down-right
+* 9, u 				Move the player (control mode), or screen (look mode), down-right 			
+* 5, space 			Rest and let monsters move
+* <               	Go up the stairs
+* >					Go down the stairs
+* L 				Activate Look Mode
+* Escape 			Activate Control Mode
+* Q, q 				Quit the game
+	

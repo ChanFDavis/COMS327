@@ -1,0 +1,21 @@
+CHANGELOG - Assigntment 1.07 - Chan Davis
+
+
+2017/27/03:
+- Converted all files to cpp
+- Fixed errors caused by casting
+
+2017/28/03:
+- Added a loop for the entire file
+- Added a sub-loop for each individual monster
+- Each loop has if-statements to check for tags and handles them accordingly
+
+2017/29/03:
+- Added a loop for getting the whole description
+- Added variables to hold the value of each tag
+- Added error checking to test if there are no extra parameters
+- Added error checking to test if there are no missing parameters
+
+2017/30/03:
+- Added calls to print each monster's values - only if no errors occur
+- Removed call to print the metadata.

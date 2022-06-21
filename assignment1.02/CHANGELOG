@@ -1,0 +1,12 @@
+[2017-30-01]:
+	* Created the README, CHANGELOG, and assignment1.02.c file.
+	* Created the Makefile.
+	* Added the following commands to the makefile:
+		- default
+		- run 
+		- clean
+
+[2017-01-02]:
+	* Moved code from previous assignment into current assignment1.02 file to reuse.
+	* Converted code to use dynamic allocation for the array of rooms so that it will function with any number of rooms.
+	* read files 
