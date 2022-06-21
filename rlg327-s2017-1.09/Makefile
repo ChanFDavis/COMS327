@@ -11,7 +11,7 @@ BIN = rlg327
 OBJS = rlg327.o heap.o dungeon.o path.o utils.o character.o event.o \
        pc.o npc.o move.o io.o descriptions.o dice.o object.o
 
-all: $(BIN) etags
+all: $(BIN)
 
 $(BIN): $(OBJS)
 	@$(ECHO) Linking $@
@@ -27,7 +27,7 @@ $(BIN): $(OBJS)
 	@$(ECHO) Compiling $<
 	@$(CXX) $(CXXFLAGS) -MMD -MF $*.d -c $<
 
-.PHONY: all clean clobber etags
+.PHONY: all clean clobber
 
 clean:
 	@$(ECHO) Removing all generated files
@@ -36,7 +36,3 @@ clean:
 clobber: clean
 	@$(ECHO) Removing backup files
 	@$(RM) *~ \#* *pgm
-
-etags:
-	@$(ECHO) Updating TAGS
-	@etags *.cpp *.h
