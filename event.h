@@ -1,21 +1,21 @@
 #ifndef EVENT_H
-# define EVENT_H
+#define EVENT_H
 
-# include <stdint.h>
+#include <stdint.h>
 
-# include "dungeon.h"
+#include "dungeon.h"
 
 typedef enum event_type {
-  event_character_turn,
+   event_character_turn,
 } event_type_t;
 
 typedef struct event {
-  event_type_t type;
-  uint32_t time;
-  uint32_t sequence;
-  union {
-    character *c;
-  };
+   event_type_t type;
+   uint32_t time;
+   uint32_t sequence;
+   union {
+      character *c;
+   };
 } event_t;
 
 int32_t compare_events(const void *event1, const void *event2);

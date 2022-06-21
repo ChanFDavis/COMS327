@@ -11,6 +11,8 @@
 #include "descriptions.h"
 #include "object.h"
 
+/* TODO: Fix indentation. */
+
 const char *victory =
   "                                       o\n"
   "                                      $\"\"$o\n"

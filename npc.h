@@ -6,6 +6,8 @@
 # include "dims.h"
 # include "character.h"
 
+/* TODO: Fix indentation. */
+
 typedef uint32_t npc_characteristics_t;
 class monster_description;
 

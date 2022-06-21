@@ -5,6 +5,8 @@
 #include "dungeon.h"
 #include "utils.h"
 
+/* TODO: Fix indentation. */
+
 object::object(const object_description &o, pair_t p, object *next) :
   name(o.get_name()),
   description(o.get_description()),

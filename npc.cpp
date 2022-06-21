@@ -9,6 +9,8 @@
 #include "event.h"
 #include "pc.h"
 
+/* TODO: Fix indentation. */
+
 void npc_delete(npc *n)
 {
   if (n) {

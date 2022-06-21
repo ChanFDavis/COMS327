@@ -5,6 +5,8 @@
 
 # include "dims.h"
 
+/* TODO: Fix indentation. */
+
 class character;
 
 typedef struct dungeon dungeon_t;

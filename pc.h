@@ -7,6 +7,8 @@
 # include "character.h"
 # include "dungeon.h"
 
+/* TODO: Fix indentation. */
+
 typedef enum equipment_slots
 {
 	WEAPON,

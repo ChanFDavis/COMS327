@@ -11,6 +11,8 @@
 #include "io.h"
 #include "object.h"
 
+/* TODO: Fix indentation. */
+
 void pc_delete(pc *pc)
 {
 	if (pc) {

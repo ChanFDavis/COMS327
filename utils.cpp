@@ -6,6 +6,8 @@
 
 #include "utils.h"
 
+/* TODO: Fix indentation. */
+
 int makedirectory(char *dir)
 {
   char *slash;

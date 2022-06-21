@@ -1,6 +1,8 @@
 #ifndef PATH_H
 # define PATH_H
 
+/* TODO: Fix indentation. */
+
 typedef struct dungeon dungeon_t;
 
 void dijkstra(dungeon_t *d);

@@ -6,6 +6,8 @@
 # include "descriptions.h"
 # include "dims.h"
 
+/* TODO: Fix indentation. */
+
 class object {
  private:
   const std::string &name;

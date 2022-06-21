@@ -17,6 +17,8 @@
 #include "event.h"
 #include "io.h"
 
+/* TODO: Fix indentation. */
+
 void do_combat(dungeon_t *d, character *atk, character *def)
 {
 	if (character_is_alive(def)) {
