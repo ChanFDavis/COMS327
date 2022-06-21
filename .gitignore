@@ -8,6 +8,9 @@
 *.gch
 *.pch
 
+# Dependency Files
+*.d
+
 # Libraries
 *.lib
 *.a
